@@ -1,5 +1,5 @@
 # sms
-Command line tool written in GO that sends an SMS of the given data.
+Command line tool written in Go that sends an SMS of the given data.
 
 Environment Variables:
   * SMS_DEFAULT_MESSAGE 
