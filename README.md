@@ -10,5 +10,7 @@ Environment Variables:
 
 Usages:
   * $ sms "This is a message" 5551234567
-  * pwd | sms
-  * ls | grep test | sms
+  * $ sms "This is a message" <- Uses SMS_DEFAULT_NUMBER
+  * $ sms <- Uses SMS_DEFAULT_MESSAGE and SMS_DEFAULT_NUMBER
+  * $ pwd | sms
+  * $ ls | grep test | sms
